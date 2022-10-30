@@ -43,7 +43,7 @@
   margin-top: 20px;
 }
 
-ul {
+.tasks {
   margin: 0;
   padding: 0px;
 }
@@ -145,21 +145,21 @@ li >  input[type="text"] {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.tasks_done label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.tasks li input[type=text] {
   display: none;
 }
 
-ul li.editMode input[type=text] {
+.tasks li.editMode input[type=text] {
   display: inline-block;
   width: 224px
 }
 
-ul li.editMode label {
+.tasks li.editMode label {
   display: none;
 }
