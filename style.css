@@ -73,7 +73,7 @@ input,
   text-transform: uppercase;
 }
 
-.task__text_edit {
+.task__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -86,7 +86,7 @@ input,
   color: #888;
 }
 
-.task__text_edit:focus {
+.task__input:focus {
   color: #333;
 }
 
