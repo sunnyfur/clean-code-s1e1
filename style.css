@@ -32,15 +32,10 @@
   margin: 1rem auto 0;
 }
 
-.task {
+.task__text {
   width: 56%;
   display: inline-block;
   flex-grow: 1
-}
-
-.task-row-wrapper {
-  display: flex;
-  margin-top: 20px;
 }
 
 .tasks {
@@ -104,7 +99,7 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.task {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -122,14 +117,14 @@ li > input[type="checkbox"] {
   margin: 0 10px;
 }
 
-li > label {
+.task__text_notedit {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li >  input[type="text"] {
+.task__text_edit {
   width: 226px;
 }
 
@@ -150,15 +145,15 @@ li >  input[type="text"] {
 }
 
 /* Edit Task */
-.tasks li input[type=text] {
+.task__text_edit {
   display: none;
 }
 
-.tasks li.editMode input[type=text] {
+.task_edit-mode .task__text_edit  {
   display: inline-block;
   width: 224px
 }
 
-.tasks li.editMode label {
+.task_edit-mode .task__text_notedit {
   display: none;
 }
