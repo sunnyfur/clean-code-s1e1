@@ -43,10 +43,6 @@
   padding: 0px;
 }
 
-li, h3 {
-  list-style: none;
-}
-
 input, .button{
   outline: none;
 }
@@ -100,6 +96,7 @@ input#new-task {
 
 /* Task list */
 .task {
+  list-style: none;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
