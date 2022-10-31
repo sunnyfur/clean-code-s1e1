@@ -109,10 +109,6 @@ input#new-task {
   align-items: center;
 }
 
-li > * {
-  vertical-align: middle;
-}
-
 .task__checkbox {
   margin: 0 10px;
 }
