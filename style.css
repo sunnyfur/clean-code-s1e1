@@ -132,7 +132,7 @@ input#new-task {
 }
 
 /* Completed */
-.tasks_done label {
+.tasks_done .task__text_notedit {
   text-decoration: line-through;
   color: #888;
 }
